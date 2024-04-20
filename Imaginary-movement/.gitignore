@@ -1,0 +1,4 @@
+# ignore every database file
+*.db
+
+data/
