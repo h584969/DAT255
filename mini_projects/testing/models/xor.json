@@ -1,0 +1,56 @@
+{
+    "layers": [
+        {
+            "name": "_0",
+            "kind": "Linear",
+            "parameters": [
+                {
+                    "name": "weight",
+                    "shape": [
+                        4,
+                        2
+                    ],
+                    "value": "FPazPxIiOsC7/d6/z5Tbv/+NKsDtQgpApAvbvwIx3L8="
+                },
+                {
+                    "name": "bias",
+                    "shape": [
+                        4
+                    ],
+                    "value": "rFe9P7f42T8DJXA+W5nbPw=="
+                }
+            ]
+        },
+        {
+            "name": "_1",
+            "kind": "ReLU",
+            "parameters": []
+        },
+        {
+            "name": "_2",
+            "kind": "Linear",
+            "parameters": [
+                {
+                    "name": "weight",
+                    "shape": [
+                        1,
+                        4
+                    ],
+                    "value": "COZaQMw7KcBN74ZAMO9EwA=="
+                },
+                {
+                    "name": "bias",
+                    "shape": [
+                        1
+                    ],
+                    "value": "+TZXwA=="
+                }
+            ]
+        },
+        {
+            "name": "_3",
+            "kind": "Sigmoid",
+            "parameters": []
+        }
+    ]
+}
